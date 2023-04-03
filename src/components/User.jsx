@@ -11,11 +11,8 @@ const User = () => {
         <label htmlFor="email">Email:</label>
         <input onChange={(e)=>setEmail(e.target.value)} id="email" type="email" /><br/>
         <p>Current values in store:</p>
-        <div className='output'>
-        <p>Name- {name}</p>
-        <p>Email- {email}</p>
-        </div>
-
+        <p className='output'>Name- {name}</p>
+        <p className='output'>Email- {email}</p>
     </div>
   )
 }
