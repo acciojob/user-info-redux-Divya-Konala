@@ -10,9 +10,11 @@ const User = () => {
         <input onChange={(e)=>setName(e.target.value)} id="name" type="text" /><br/>
         <label htmlFor="email">Email:</label>
         <input onChange={(e)=>setEmail(e.target.value)} id="email" type="email" /><br/>
-        <p>Current values in store:</p>
-        <p className='output'>Name- {name}</p>
+        <p className='output'>
+        Current values in store:
+        <p>Name- {name}</p>
         <p className='output'>Email- {email}</p>
+        </p>
     </div>
   )
 }
