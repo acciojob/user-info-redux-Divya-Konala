@@ -13,7 +13,7 @@ const User = () => {
         <p className='output'>
         Current values in store:
         <p>Name- {name}</p>
-        <p className='output'>Email- {email}</p>
+        <p class='output'>Email- {email}</p>
         </p>
     </div>
   )
